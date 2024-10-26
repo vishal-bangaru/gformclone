@@ -1,0 +1,33 @@
+/* Home.css */
+.home-container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .background-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    border: none; /* Remove borders for a clean background */
+  }
+  
+  .foreground-content {
+    position: relative;
+    z-index: 2;
+    color: #FFFFFF;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; 
+    padding: 20px;
+    backdrop-filter: blur(2px); 
+    background-color: transparent ; /* Optional semi-transparent bg */
+    
+    border-radius: 10px;
+  }
+  
